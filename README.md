@@ -1,4 +1,4 @@
-# AgentFlow 🤖
+# AgentFlow 
 
 > **LLM-Powered Task Automation Agent** — FastAPI · OpenAI Function Calling · Async Orchestration · Redis Caching
 
@@ -6,7 +6,7 @@ AgentFlow is a production-ready ReAct-style agent that decomposes natural-langua
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Details |
 |---|---|
@@ -23,7 +23,7 @@ AgentFlow is a production-ready ReAct-style agent that decomposes natural-langua
 
 ---
 
-## 🗂 Project Structure
+##  Project Structure
 
 ```
 agentflow/
@@ -65,7 +65,7 @@ agentflow/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone & configure
 
@@ -98,7 +98,7 @@ uvicorn app.main:app --reload
 
 ---
 
-## 🧪 Running Tests
+##  Running Tests
 
 ```bash
 pip install -r requirements.txt
@@ -111,7 +111,7 @@ Coverage report is generated in `htmlcov/index.html`.
 
 ---
 
-## 📡 API Reference
+## API Reference
 
 ### `POST /api/v1/tasks`
 
@@ -157,7 +157,7 @@ Lists all available tool names and descriptions.
 
 ---
 
-## 🔧 Configuration
+##  Configuration
 
 All settings are read from `.env` (see `.env.example`):
 
@@ -183,7 +183,7 @@ All settings are read from `.env` (see `.env.example`):
 
 ---
 
-## 📈 Performance Profiling
+## Performance Profiling
 
 ```python
 from app.utils.profiler import profile_async, get_stats
@@ -199,7 +199,7 @@ print(get_stats())
 
 ---
 
-## 🏗 Architecture
+##  Architecture
 
 ```
 User Request
@@ -221,6 +221,6 @@ AgentOrchestrator
 
 ---
 
-## 📄 License
+## License
 
 MIT
